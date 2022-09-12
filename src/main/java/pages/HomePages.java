@@ -13,7 +13,7 @@ public class HomePages {
     public void logIn(){
         userName.sendKeys(Browser.getPropertyValue("userName"));
         passWord.sendKeys(Browser.getPropertyValue("passWord"));
-        loginButton.click();
+        //loginButton.click();
     }
 
 
